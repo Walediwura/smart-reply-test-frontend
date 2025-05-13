@@ -1,12 +1,12 @@
 # 🧪 Email Response Generator – Frontend (React + Vite + Tailwind CSS)
 
-A simple and responsive **frontend interface** for testing the LLM-powered **Email Response Generator API**. Built using **React**, **Vite**, and **Tailwind CSS** for rapid development, fast performance, and modern design.
+A simple and responsive **frontend interface** for testing a LLM-powered **Email Response Generator API**. Built using **React**, **Vite**, and **Tailwind CSS** for rapid development, fast performance, and modern design.
 
 ---
 
 ## 🎯 Overview
 
-This frontend client allows users to test real-time email response generation with customizable tones — such as **professional**, **friendly**, or **casual** — powered by my backend LLM wrapper.
+This frontend client allows users to test real-time email response generation with customizable tones — such as **professional**, **friendly**, or **casual** — powered by a backend LLM wrapper application.
 
 Perfect for demoing the capabilities of intelligent, tone-aware response generation systems.
 
