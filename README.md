@@ -36,8 +36,9 @@ Perfect for demoing the capabilities of intelligent, tone-aware response generat
 ### 1. Clone the repository
 
 ```powershell
-git clone https://github.com/your-username/email-response-frontend.git
-cd email-response-frontend
+git clone https://github.com/Walediwura/smart-reply-test-frontend.git
+cd smart-reply-test-frontend
+
 ```
 
 ### 2. Install dependencies
