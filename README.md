@@ -1,12 +1,78 @@
-# React + Vite
+# 🧪 Email Response Generator – Frontend (React + Vite + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **frontend interface** for testing a LLM-powered **Email Response Generator API**. Built using **React**, **Vite**, and **Tailwind CSS** for rapid development, fast performance, and modern design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Overview
 
-## Expanding the ESLint configuration
+This frontend client allows users to test real-time email response generation with customizable tones — such as **professional**, **friendly**, or **casual** — powered by a backend LLM wrapper application.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Perfect for demoing the capabilities of intelligent, tone-aware response generation systems.
+
+---
+
+## ✨ Features
+
+* ⚡️ **Fast & Lightweight**: Built with Vite for near-instant dev startup
+* 🎨 **Modern UI**: Styled with Tailwind CSS for clean, responsive design
+* 🧠 **LLM-Integrated**: Communicates seamlessly with the Spring Boot backend
+* 🎛️ **Tone Selector**: Choose from multiple tones to tailor your response
+* 📄 **Live Preview**: See generated email responses instantly
+
+---
+
+## 🖥️ Tech Stack
+
+* React 18
+* Vite
+* Tailwind CSS
+* Axios (for API calls)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```powershell
+git clone https://github.com/Walediwura/smart-reply-test-frontend.git
+cd smart-reply-test-frontend
+
+```
+
+### 2. Install dependencies
+
+```powershell
+npm install
+```
+
+### 3. Configure the API endpoint
+
+Update the API base URL in your environment file:
+
+```env
+VITE_API_URL=http://localhost:8080/api/v1/generate
+```
+
+### 4. Start the development server
+
+```powershell
+npm run dev
+```
+
+---
+
+## 🧪 Example Workflow
+
+1. Enter a user email prompt
+2. Select a tone (e.g., **professional**, **friendly**)
+3. Submit the form
+4. View the generated response in real-time
+
+---
+
+## 📄 License
+
+MIT License
+
