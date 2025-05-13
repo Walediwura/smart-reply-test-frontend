@@ -52,7 +52,8 @@ npm install
 Update the API base URL in your environment file:
 
 ```env
-VITE_API_URL=http://localhost:8080/api/v1/generate
+VITE_BASE_URL=http://localhost:8080 
+VITE_API_URL=api/v1/generate
 ```
 
 ### 4. Start the development server
