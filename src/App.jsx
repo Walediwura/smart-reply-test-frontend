@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import axios from "axios";
 
 function App() {
+  const apiUrl = import.meta.env.VITE_API_URL;
+  const baseUrl = import.meta.env.VITE_BASE_URL;
   const [emailContent, setEmailContent] = useState("");
   const [responseTone, setResponseTone] = useState("");
 
@@ -17,10 +19,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post(
-        "http://localhost:8080/api/v1/email/generate",
-        body
-      );
+      const response = await axios.post(`${baseUrl}/${apiUrl}`, body);
 
       setGeneratedReply(
         typeof response?.data === "string"
